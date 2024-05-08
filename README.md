@@ -111,40 +111,7 @@ if(NUM_LOOPS>=10)    {
 ```
 
 ## OUTPUT
-```
-$ ./sem.o 
-semaphore set created, semaphore set id '98304'.
-producer: '0'
-consumer: '0'
-producer: '1'
-producer: '2'
-consumer: '1'
-consumer: '2'
-producer: '3'
-consumer: '3'
-producer: '4'
-consumer: '4'
-producer: '5'
-producer: '6'
-
-$ ipcs
-
------- Message Queues --------
-key        msqid      owner      perms      used-bytes   messages    
-
------- Shared Memory Segments --------
-key        shmid      owner      perms      bytes      nattch     status      
-0x00000000 327680     gganesh    600        524288     2          dest         
-0x00000000 163841     gganesh    600        16777216   2          dest         
-0x00000000 622594     gganesh    600        524288     2          dest         
-0x00000000 458755     gganesh    600        524288     2          dest         
-0x00000000 491524     gganesh    600        524288     2          dest         
-0x00000000 524293     gganesh    600        524288     2          dest         
-
------- Semaphore Arrays --------
-key        semid      owner      perms      nsems     
-0x00000000 98304      gganesh    600        1    
-```
+![image](https://github.com/23006860/Linux-IPC-Semaphores/assets/139841752/6a67a450-6ff7-4016-a7b4-ef4e76043437)
 
 
 # RESULT:
